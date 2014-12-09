@@ -1,0 +1,23 @@
+<Content>
+	<Table Name="campuslite.directory.profile">
+		<Field AllowNull="true" DataType="BigInt" Default="" Indexed="false" Name="uid" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="last_update" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="about_me" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="birthdate" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="cell_phone" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="contact_address" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="contact_phone" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="email" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="gender" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="true" Name="login_name" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="name" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="photo" />
+		<Field AllowNull="true" DataType="Number" Default="" Indexed="false" Name="privacy_p" />
+		<Field AllowNull="true" DataType="Number" Default="" Indexed="false" Name="privacy_s" />
+		<Field AllowNull="true" DataType="Number" Default="" Indexed="false" Name="privacy_t" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="tagline" />
+		<Unique Name="uniq_campuslite.directory.profile_login_name">
+			<FieldName>login_name</FieldName>
+		</Unique>
+	</Table>
+</Content>
