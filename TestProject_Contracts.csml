@@ -59,9 +59,10 @@ return {Course: _Courses};]]></Code>
 		</Service>
 		<Service Enabled="true" Name="ListModules">
 			<Definition Type="Component">
-				<ClassName>ischool.udm.service.UDMService</ClassName>
-				<MethodName>listModules</MethodName>
-			</Definition>
+	<ClassName>ischool.udm.service.UDMService</ClassName>
+	<MethodName>listModules</MethodName>
+	<!--註-->
+</Definition>
 		</Service>
 		<Service Enabled="true" Name="ResponseType">
 			<Definition MandatoryResponseType="JSON" Type="JavaScript">
