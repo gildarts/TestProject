@@ -61,7 +61,7 @@ return {Course: _Courses};]]></Code>
 			<Definition Type="Component">
 	<ClassName>ischool.udm.service.UDMService</ClassName>
 	<MethodName>listModules</MethodName>
-	<!--註-->
+	<!--註aa-->
 </Definition>
 		</Service>
 		<Service Enabled="true" Name="ResponseType">
