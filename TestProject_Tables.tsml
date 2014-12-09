@@ -1,4 +1,19 @@
 <Content>
+	<Table Name="access_control_card.history">
+		<Field AllowNull="true" DataType="BigInt" Default="" Indexed="false" Name="uid" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="last_update" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="true" Name="card_no" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="true" Name="guid" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="oclock_name" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="step2_session_guid" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="step2_time" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="step4_session_guid" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="upload_fail_reason" />
+		<Field AllowNull="false" DataType="Boolean" Default="'f'" Indexed="false" Name="upload_success" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="upload_time" />
+		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="use_time" />
+		<Field AllowNull="true" DataType="String" Default="" Indexed="false" Name="use_type" />
+	</Table>
 	<Table Name="campuslite.directory.profile">
 		<Field AllowNull="true" DataType="BigInt" Default="" Indexed="false" Name="uid" />
 		<Field AllowNull="true" DataType="Datetime" Default="" Indexed="false" Name="last_update" />
